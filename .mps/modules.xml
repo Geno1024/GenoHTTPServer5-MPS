@@ -5,6 +5,10 @@
       <modulePath path="$PROJECT_DIR$/languages/com.geno1024.httpserver5.Main/com.geno1024.httpserver5.Main.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.geno1024.httpserver5.Main/runtime/com.geno1024.httpserver5.Main.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.geno1024.httpserver5.Main/sandbox/com.geno1024.httpserver5.Main.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.geno1024.ufi.JavaClass/com.geno1024.ufi.JavaClass.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.geno1024.ufi.JavaClass/sandbox/com.geno1024.ufi.JavaClass.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.geno1024.ufi/com.geno1024.ufi.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.geno1024.ufi/sandbox/com.geno1024.ufi.sandbox.msd" folder="" />
     </projectModules>
   </component>
 </project>
