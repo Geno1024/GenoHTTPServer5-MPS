@@ -7,8 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b39c68a-5ef8-453b-b891-2ff35bae2243" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.geno1024.ufi.JavaClass/models/com.geno1024.ufi.JavaClass.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.geno1024.ufi.JavaClass/models/com.geno1024.ufi.JavaClass.typesystem.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.geno1024.ufi.JavaClass/sandbox/models/com.geno1024.ufi.JavaClass.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.geno1024.ufi.JavaClass/sandbox/models/com.geno1024.ufi.JavaClass.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.geno1024.ufi/models/com.geno1024.ufi.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.geno1024.ufi/models/com.geno1024.ufi.behavior.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.geno1024.ufi/models/com.geno1024.ufi.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.geno1024.ufi/models/com.geno1024.ufi.editor.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +24,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="e42c4562-c683-4661-980e-882e6e47912e/r:cfd70dd1-29f9-4f65-9880-d3d55d61c60e(TempModulee42c4562-c683-4661-980e-882e6e47912e/ConsoleModel_537043944467199)">
+            <model ref="db8dcd72-836c-4966-914c-fb315c66091e/r:dfebc697-11a6-4778-898d-283d2a8ab222(TempModuledb8dcd72-836c-4966-914c-fb315c66091e/ConsoleModel_601412563130000)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -41,11 +44,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="3QhAyTldEzS">
-                <node concept="3balQm" id="3QhAyTldEzT" role="aymYE" />
-                <node concept="2Clz$F" id="3QhAyTldEzU" role="aymYO" />
-                <node concept="2_V_lH" id="3QhAyTldEzV" role="1PhJh3">
-                  <ref role="2_V_lI" node="3QhAyTldEzU" resolve="CommandHolder" />
+              <node concept="aymSD" id="5LMe63Z8CoR">
+                <node concept="3balQm" id="5LMe63Z8CoS" role="aymYE" />
+                <node concept="2Clz$F" id="5LMe63Z8CoT" role="aymYO" />
+                <node concept="2_V_lH" id="5LMe63Z8CoU" role="1PhJh3">
+                  <ref role="2_V_lI" node="5LMe63Z8CoT" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -161,6 +164,7 @@
   <component name="ProjectView">
     <navigator proportions="" version="1" />
     <panes>
+      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -173,7 +177,51 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:2678c812-f808-4597-9fe4-a62fe4a68c40(com.geno1024.ufi.JavaClass.constraints) in IdeaFile[path: C:/Users/Geno1024/MPSProjects/GenoHTTPServer5/languages/com.geno1024.ufi.JavaClass/models/com.geno1024.ufi.JavaClass.constraints.mps]" />
+              <option name="myItemId" value="r:7e9f754c-231b-4d3b-8dee-300a85ef8505(com.geno1024.ufi.JavaClass.behavior) in IdeaFile[path: C:/Users/Geno1024/MPSProjects/GenoHTTPServer5/languages/com.geno1024.ufi.JavaClass/models/com.geno1024.ufi.JavaClass.behavior.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="8fd82c98-a8aa-4b1d-b048-35f794ac1773" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a4f13648-f204-4bfe-87b7-0a5319043bc4(com.geno1024.ufi.JavaClass)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:73e4fc1e-8ae5-4d5f-aa21-999100982bef(com.geno1024.ufi.JavaClass.structure) in IdeaFile[path: C:/Users/Geno1024/MPSProjects/GenoHTTPServer5/languages/com.geno1024.ufi.JavaClass/models/com.geno1024.ufi.JavaClass.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a4f13648-f204-4bfe-87b7-0a5319043bc4(com.geno1024.ufi.JavaClass)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,7 +253,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:7e9f754c-231b-4d3b-8dee-300a85ef8505(com.geno1024.ufi.JavaClass.behavior) in IdeaFile[path: C:/Users/Geno1024/MPSProjects/GenoHTTPServer5/languages/com.geno1024.ufi.JavaClass/models/com.geno1024.ufi.JavaClass.behavior.mps]" />
+              <option name="myItemId" value="r:13696999-0793-43ba-b6cc-a3f3587ef755(com.geno1024.ufi.JavaClass.editor) in IdeaFile[path: C:/Users/Geno1024/MPSProjects/GenoHTTPServer5/languages/com.geno1024.ufi.JavaClass/models/com.geno1024.ufi.JavaClass.editor.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -215,21 +263,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="a4f13648-f204-4bfe-87b7-0a5319043bc4(com.geno1024.ufi.JavaClass)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="a4f13648-f204-4bfe-87b7-0a5319043bc4(com.geno1024.ufi.JavaClass)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:73e4fc1e-8ae5-4d5f-aa21-999100982bef(com.geno1024.ufi.JavaClass.structure) in IdeaFile[path: C:/Users/Geno1024/MPSProjects/GenoHTTPServer5/languages/com.geno1024.ufi.JavaClass/models/com.geno1024.ufi.JavaClass.structure.mps]" />
+              <option name="myItemId" value="8fd82c98-a8aa-4b1d-b048-35f794ac1773" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,11 +283,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="8fd82c98-a8aa-4b1d-b048-35f794ac1773" />
+              <option name="myItemId" value="a4f13648-f204-4bfe-87b7-0a5319043bc4(com.geno1024.ufi.JavaClass)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
+              <option name="myItemId" value="r:8b98441b-1a46-4199-a968-b8d391f34ee2(com.geno1024.ufi.JavaClass.typesystem) in IdeaFile[path: C:/Users/Geno1024/MPSProjects/GenoHTTPServer5/languages/com.geno1024.ufi.JavaClass/models/com.geno1024.ufi.JavaClass.typesystem.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,41 +311,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="8fd82c98-a8aa-4b1d-b048-35f794ac1773" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="a4f13648-f204-4bfe-87b7-0a5319043bc4(com.geno1024.ufi.JavaClass)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:13696999-0793-43ba-b6cc-a3f3587ef755(com.geno1024.ufi.JavaClass.editor) in IdeaFile[path: C:/Users/Geno1024/MPSProjects/GenoHTTPServer5/languages/com.geno1024.ufi.JavaClass/models/com.geno1024.ufi.JavaClass.editor.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="a4f13648-f204-4bfe-87b7-0a5319043bc4(com.geno1024.ufi.JavaClass)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:8b98441b-1a46-4199-a968-b8d391f34ee2(com.geno1024.ufi.JavaClass.typesystem) in IdeaFile[path: C:/Users/Geno1024/MPSProjects/GenoHTTPServer5/languages/com.geno1024.ufi.JavaClass/models/com.geno1024.ufi.JavaClass.typesystem.mps]" />
+              <option name="myItemId" value="r:2678c812-f808-4597-9fe4-a62fe4a68c40(com.geno1024.ufi.JavaClass.constraints) in IdeaFile[path: C:/Users/Geno1024/MPSProjects/GenoHTTPServer5/languages/com.geno1024.ufi.JavaClass/models/com.geno1024.ufi.JavaClass.constraints.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,18 +328,9 @@
               <option name="myItemId" value="a4f13648-f204-4bfe-87b7-0a5319043bc4(com.geno1024.ufi.JavaClass)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:8b98441b-1a46-4199-a968-b8d391f34ee2(com.geno1024.ufi.JavaClass.typesystem) in IdeaFile[path: C:/Users/Geno1024/MPSProjects/GenoHTTPServer5/languages/com.geno1024.ufi.JavaClass/models/com.geno1024.ufi.JavaClass.typesystem.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4436496631728790925" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -388,10 +383,10 @@
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
     <state x="2220" y="177" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1581781332678" />
-    <state x="2306" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1581763213874">
+    <state x="2306" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1581828082795">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state x="2306" y="259" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1581763213874" />
+    <state x="2306" y="259" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1581828082795" />
     <state x="2478" y="235" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1581759107132">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
